@@ -25,7 +25,7 @@ class PasscodeKitVerify: UIViewController {
 		super.viewDidLoad()
 
 		title = PasscodeKit.titleEnterPasscode
-		view.backgroundColor = PasscodeKit.backgroundColor
+        view.backgroundColor = PasscodeKit.backgroundColor.withAlphaComponent(0.5)
 	}
 
 	override func viewWillAppear(_ animated: Bool) {
